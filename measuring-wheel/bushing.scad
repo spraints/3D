@@ -1,4 +1,4 @@
-$fn = 10;
+$fn = 30;
 
 use <roundedcube.scad>
 
