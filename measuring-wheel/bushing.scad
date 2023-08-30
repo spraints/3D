@@ -37,7 +37,7 @@ polygon(points = [[0,0],[3,0],[0,3]]);
 
 difference() {
     // outline of bushing.
-    roundedcube([height, width, gap], false, 1, "all");
+    roundedcube([height, width, gap], false, 0.3, "all");
 
     // hole for shaft.
     translate([depth-opening/2,width/2,0]) cylinder(h = 40, d = opening, center = true);
